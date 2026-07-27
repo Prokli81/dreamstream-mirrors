@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-27",
+  "comment": "Правьте primary/mirrors и пушьте — приложение подхватит без новой сборки, если задан MirrorEndpoints.REMOTE_URL",
+  "sources": {
+    "kinokordon": {
+      "primary": "https://win.kinokordon.link",
+      "mirrors": []
+    },
+    "porno666": {
+      "primary": "https://porno666.link",
+      "mirrors": []
+    },
+    "beeg": {
+      "primary": "https://beeg.com",
+      "mirrors": []
+    },
+    "pornohd": {
+      "primary": "https://www.pornohd.sex",
+      "mirrors": []
+    },
+    "trannygem": {
+      "primary": "https://www.trannygem.com",
+      "mirrors": []
+    }
+  }
+}
