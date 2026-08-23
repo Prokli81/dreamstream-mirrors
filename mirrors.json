@@ -1,26 +1,26 @@
 {
-  "version": 1,
-  "updatedAt": "2026-07-27",
-  "comment": "Правьте primary/mirrors и пушьте — приложение подхватит без новой сборки, если задан MirrorEndpoints.REMOTE_URL",
+  "version": 6,
+  "updatedAt": "2026-08-23",
+  "comment": "AdultMovz + Film-Adult + Pornoente + BigPornAI + Tizam",
   "sources": {
-    "kinokordon": {
-      "primary": "https://win.kinokordon.link",
+    "adultmovz": {
+      "primary": "https://www.adultmovz.com",
       "mirrors": []
     },
-    "porno666": {
-      "primary": "https://porno666.link",
+    "filmadult": {
+      "primary": "https://film-adult.net",
       "mirrors": []
     },
-    "beeg": {
-      "primary": "https://beeg.com",
+    "pornoente": {
+      "primary": "https://www.pornoente.net",
       "mirrors": []
     },
-    "pornohd": {
-      "primary": "https://www.pornohd.sex",
+    "bigpornai": {
+      "primary": "https://bigpornai.com",
       "mirrors": []
     },
-    "trannygem": {
-      "primary": "https://www.trannygem.com",
+    "tizam": {
+      "primary": "https://ane.tizam.org",
       "mirrors": []
     }
   }
