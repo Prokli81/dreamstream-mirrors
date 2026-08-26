@@ -1,7 +1,7 @@
 {
-  "version": 6,
-  "updatedAt": "2026-08-23",
-  "comment": "AdultMovz + Film-Adult + Pornoente + BigPornAI + Tizam",
+  "version": 7,
+  "updatedAt": "2026-08-26",
+  "comment": "AdultMovz + Film-Adult + Pornoente + BigPornAI + Tizam + 4KPornVideos",
   "sources": {
     "adultmovz": {
       "primary": "https://www.adultmovz.com",
@@ -21,6 +21,10 @@
     },
     "tizam": {
       "primary": "https://ane.tizam.org",
+      "mirrors": []
+    },
+    "fourkpv": {
+      "primary": "https://4kpornvideos.tv",
       "mirrors": []
     }
   }
