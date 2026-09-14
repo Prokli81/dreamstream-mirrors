@@ -1,31 +1,8 @@
 {
-  "version": 7,
-  "updatedAt": "2026-08-26",
-  "comment": "AdultMovz + Film-Adult + Pornoente + BigPornAI + Tizam + 4KPornVideos",
+  "version": 10,
+  "updatedAt": "2026-09-14-tizam-only",
+  "comment": "Tizam only",
   "sources": {
-    "adultmovz": {
-      "primary": "https://www.adultmovz.com",
-      "mirrors": []
-    },
-    "filmadult": {
-      "primary": "https://film-adult.net",
-      "mirrors": []
-    },
-    "pornoente": {
-      "primary": "https://www.pornoente.net",
-      "mirrors": []
-    },
-    "bigpornai": {
-      "primary": "https://bigpornai.com",
-      "mirrors": []
-    },
-    "tizam": {
-      "primary": "https://ane.tizam.org",
-      "mirrors": []
-    },
-    "fourkpv": {
-      "primary": "https://4kpornvideos.tv",
-      "mirrors": []
-    }
+    "tizam": { "primary": "https://ane.tizam.org", "mirrors": [] }
   }
 }
