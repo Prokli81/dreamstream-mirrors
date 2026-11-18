@@ -1,15 +1,19 @@
 ﻿# DreamStream mirrors
 
-Edit `mirrors.json` to update catalog source base URLs for the [DreamStream](https://github.com/Prokli81/DreamStream) app.
+Signed catalog hosts for [DreamStream](https://github.com/Prokli81/DreamStream).
 
-## Active sources (v6)
+The app loads `mirrors.json` at startup **only** with a valid `mirrors.json.sig`
+(ECDSA P-256, `keyId` `mirrors-p256-2026-09`) and only if `version` is greater
+than the APK/cache version.
 
-| Key | Site |
-|---|---|
-| adultmovz | adultmovz.com |
-| filmadult | film-adult.net |
-| pornoente | pornoente.net |
-| bigpornai | bigpornai.com |
-| tizam | ane.tizam.org |
+## Active sources (v40)
 
-Bump `version` and `updatedAt` on each change. The app pulls this file at startup when newer than local cache.
+| Key | Site | Primary |
+|---|---|---|
+| tizam | Tizam | https://adv.tizam.org |
+| filmadult | Film-Adult | https://film-adult.net |
+| kinokordon | Кинокордон | https://ww1.kinokordon.link |
+| porevohd | PorevoHD | https://porevohds.lol |
+| tizan2 | Tizam-2 | http://46.105.143.221:81 |
+
+Bump `version` and `updatedAt`, sign, then push **both** `mirrors.json` and `mirrors.json.sig` (same bytes that were signed).

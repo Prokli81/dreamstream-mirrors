@@ -1,8 +1,27 @@
 {
-  "version": 10,
-  "updatedAt": "2026-09-14-tizam-only",
-  "comment": "Tizam only",
+  "version": 40,
+  "updatedAt": "2026-11-18",
+  "comment": "Tizam; Film-Adult; Kinokordon; PorevoHD; Tizam-2",
   "sources": {
-    "tizam": { "primary": "https://ane.tizam.org", "mirrors": [] }
+    "tizam": {
+      "primary": "https://adv.tizam.org",
+      "mirrors": ["https://tizam.video", "https://ane.tizam.org", "https://amu.tizam.org"]
+    },
+    "filmadult": {
+      "primary": "https://film-adult.net",
+      "mirrors": ["https://hd.film-adult.com"]
+    },
+    "kinokordon": {
+      "primary": "https://ww1.kinokordon.link",
+      "mirrors": ["https://kinokordon.live"]
+    },
+    "porevohd": {
+      "primary": "https://porevohds.lol",
+      "mirrors": ["https://porevohd.com", "https://m.porevohd.net", "https://porevohd.lol"]
+    },
+    "tizan2": {
+      "primary": "http://46.105.143.221:81",
+      "mirrors": []
+    }
   }
 }
