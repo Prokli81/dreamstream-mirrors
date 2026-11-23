@@ -1,7 +1,7 @@
 {
-  "version": 40,
-  "updatedAt": "2026-11-18",
-  "comment": "Tizam; Film-Adult; Kinokordon; PorevoHD; Tizam-2",
+  "version": 45,
+  "updatedAt": "2026-11-23",
+  "comment": "Tizam; Film-Adult; Kinokordon; PorevoHD; Tizam-2; porn.ai",
   "sources": {
     "tizam": {
       "primary": "https://adv.tizam.org",
@@ -17,10 +17,14 @@
     },
     "porevohd": {
       "primary": "https://porevohds.lol",
-      "mirrors": ["https://porevohd.com", "https://m.porevohd.net", "https://porevohd.lol"]
+      "mirrors": ["https://porevohd.com", "https://m.porevohd.net"]
     },
     "tizan2": {
       "primary": "http://46.105.143.221:81",
+      "mirrors": []
+    },
+    "pornai": {
+      "primary": "https://porn.ai",
       "mirrors": []
     }
   }

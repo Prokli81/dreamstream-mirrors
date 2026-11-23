@@ -1,4 +1,4 @@
-﻿# DreamStream mirrors
+# DreamStream mirrors
 
 Signed catalog hosts for [DreamStream](https://github.com/Prokli81/DreamStream).
 
@@ -6,7 +6,7 @@ The app loads `mirrors.json` at startup **only** with a valid `mirrors.json.sig`
 (ECDSA P-256, `keyId` `mirrors-p256-2026-09`) and only if `version` is greater
 than the APK/cache version.
 
-## Active sources (v40)
+## Active sources (v45)
 
 | Key | Site | Primary |
 |---|---|---|
@@ -15,5 +15,6 @@ than the APK/cache version.
 | kinokordon | Кинокордон | https://ww1.kinokordon.link |
 | porevohd | PorevoHD | https://porevohds.lol |
 | tizan2 | Tizam-2 | http://46.105.143.221:81 |
+| pornai | porn.ai | https://porn.ai |
 
 Bump `version` and `updatedAt`, sign, then push **both** `mirrors.json` and `mirrors.json.sig` (same bytes that were signed).
