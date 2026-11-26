@@ -6,15 +6,11 @@ The app loads `mirrors.json` at startup **only** with a valid `mirrors.json.sig`
 (ECDSA P-256, `keyId` `mirrors-p256-2026-09`) and only if `version` is greater
 than the APK/cache version.
 
-## Active sources (v45)
+## Active sources (v50)
 
 | Key | Site | Primary |
 |---|---|---|
 | tizam | Tizam | https://adv.tizam.org |
-| filmadult | Film-Adult | https://film-adult.net |
-| kinokordon | Кинокордон | https://ww1.kinokordon.link |
-| porevohd | PorevoHD | https://porevohds.lol |
 | tizan2 | Tizam-2 | http://46.105.143.221:81 |
-| pornai | porn.ai | https://porn.ai |
 
 Bump `version` and `updatedAt`, sign, then push **both** `mirrors.json` and `mirrors.json.sig` (same bytes that were signed).
